@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Introdução HTML5 e CSS3</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head> 
+  <body>   
+
+    <header class="header_top">
+      <img src="./img/perfil.jpg" alt="perfil" class="perfil_img">
+      <h1 id="title">Paulo Vitor Lopes Freitas</h1>      
+    </header>
+
+    <section>
+      <header> 
+       <h2 class="subtitle">Introdução ao HTML5 e CSS3</h2>
+      </header>
+      <article class="post">
+        <header>
+          <h3 class="post_title">Definição e estrutura básica:</h3>          
+          <img src="./img/bg-html.jpg" alt="Códigos em HTML5" class="post_img">
+        </header>   
+        <p class="post_content">
+          Em 1991 Tim Berners-Lee criou essa linguagem de marcação para melhorar a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML se tornou a base da web.          
+          Com o HTML definimos o significado e a estrutura do conteúdo da web e, além de texto, nossas páginas precisam de imagens, vídeos e vários outros formatos e para isso temos os elementos HTML.          
+          Um elemento HTML é formado pela tag de abertura e seus atributos, o conteúdo e uma tag de fechamento. E mais a frente veremos que existem elementos que não tem tag de fechamento.
+          Com esses elementos podemos agrupar tipos de conteúdo, alterar tamanho e forma de fontes e adicionar diferentes mídias ao nossa página na web.
+        </p>    
+      </article>
+      <article class="post">
+        <header>
+          <h3 class="post_title">Definição e seletores:</h3>
+          <img src="./img/bg-html.jpg" alt="Códigos em CSS3" class="post_img">          
+        </header>
+        <p class="post_content">
+          Após a criação do HTML a necessidade de formatar as páginas ficou evidente, assim, em 1996, foi criada a linguagem de estilo que conhecemos por CSS.
+          A sintaxe é bem simples e pode ser explicada com a frase "você cria regras de estilo para elementos ou grupos de elementos".
+          Vamos usar um elemento HTML que vimos anteriormente, a âncora, para exemplificar.
+          Uma regra CSS é representada por um seletor ou um grupo de seletores, no nosso caso é o, então dentro de um par de chaves adicionamos as declarações, no exemplo acima estamos alterando cor e tamanho da fonte dessa âncora, as declarações são formadas por uma propriedade e um valor.
+        </p>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <ul class="list_contact">
+        <li class="list_item">
+          <img src="./img/icon-linkedin.png" alt="Icone Linkedin" class="icon">
+          <a href="https://www.linkedin.com/in/paulovitorlopesfreitas/" target="_blank">LinkedIn</a>
+        </li>
+        <li class="list_item">
+          <img src="./img/icon-github.png" alt="Icone Github" class="icon">
+          <a href="https://github.com/PauloVitorLopesFreitas" target="_blank">Github</a>
+        </li> 
+        <li class="list_item">
+          <img src="./img/icon-email.png" alt="Icone email" class="icon">
+          <a href="mailto:paulovitorlopesfreitas@gmail.com" target="_blank">e-mail</a>
+        </li>  
+      </ul> 
+    </footer>
+
+  </body>  
+</html>
